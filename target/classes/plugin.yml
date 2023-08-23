@@ -1,8 +1,9 @@
 name: CrystalCavernsBasic
+author: 'japicraft'
 version: '1.0'
 main: cc.crystalcavernsbasic.CrystalCavernsBasic
-api-version: 1.19
-depend: [CommandPanels]
+api-version: '1.20'
 commands:
-  profile:
-    description: Used to open a player's profile.
+  spawn:
+    description: Teleport the player to the server's global spawn point.
+    aliases: [lobby, hub]
