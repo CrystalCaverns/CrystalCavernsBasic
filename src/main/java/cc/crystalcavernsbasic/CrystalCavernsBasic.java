@@ -8,7 +8,6 @@ import java.util.Objects;
 import java.util.UUID;
 
 public final class CrystalCavernsBasic extends JavaPlugin {
-    public static List<UUID> toSend = new ArrayList<>();
     @Override
     public void onEnable() {
         plugin = this;
