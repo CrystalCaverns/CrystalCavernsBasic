@@ -12,6 +12,7 @@ public final class CrystalCavernsBasic extends JavaPlugin {
     public void onEnable() {
         plugin = this;
         getServer().getPluginManager().registerEvents(new PlayerJoin(), this);
+        getServer().getPluginManager().registerEvents(new PlayerQuit(), this);
         Objects.requireNonNull(getCommand("spawn")).setExecutor(new SpawnCommand());
         getLogger().info("Crystal Caverns Basic plugin loaded successfully!");
     }
